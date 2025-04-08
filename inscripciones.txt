@@ -1,0 +1,2 @@
+{"apellidos":null,"nombres":null,"fechaAsistencia":"2025-04-01","correo":"ghonza@hotmail.com","fechaNacimiento":"1996-11-15","redesSociales":"golietti","perfil":"estudiante","actividades":"meet1"}
+{"apellidos":"Olietti","nombres":"Gonzalo","fechaAsistencia":"2025-04-01","correo":"ghonzas@hotmail.com","fechaNacimiento":"1996-11-15","redesSociales":"golietti","perfil":"estudiante","actividades":"meet1"}

@@ -1,0 +1,47 @@
+Formulario HTML con validaciones
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <form id="formulario" method="POST" action="formulario2.php">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label>Fecha de asistencia:</label><br>
+        <input type="checkbox" name="fechaAsistencia[]" value="2025-04-01"> 1 de abril <br>
+        <input type="checkbox" name="fechaAsistencia[]" value="2025-04-02"> 2 de abril <br>
+        <input type="checkbox" name="fechaAsistencia[]" value="2025-04-03"> 3 de abril <br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br>
+
+        <label for="fechaNacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+
+        <label for="redesSociales">Redes sociales:</label>
+        <input type="text" id="redesSociales" name="redesSociales"><br>
+
+        <label for="perfil">Perfil del inscripto:</label>
+        <select id="perfil" name="perfil" required>
+            <option value="estudiante">Estudiante</option>
+            <option value="profesional">Profesional</option>
+            <option value="otro">Otro</option>
+        </select><br>
+
+        <label>Charlas, meet o cursos a los que asistirá:</label><br>
+        <input type="checkbox" name="actividad[]" value="charla1"> Charla 1<br>
+        <input type="checkbox" name="actividad[]" value="meet1"> Meet 1<br>
+        <input type="checkbox" name="actividad[]" value="curso1"> Curso 1<br>
+        
+        <button type="submit">Registrarse</button>
+    </form>
+</body>
+</html>
+
